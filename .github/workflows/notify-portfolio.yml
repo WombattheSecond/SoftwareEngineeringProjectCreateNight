@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Notify Personal Portfolio
         env:
-          GH_TOKEN: ${{ secrets.PORTFOLIO_SYNC_TOKEN }}
+          GH_TOKEN: ${{ secrets.PERSONAL_PORTFOLIO }}
         run: |
           curl -L \
             -X POST \
